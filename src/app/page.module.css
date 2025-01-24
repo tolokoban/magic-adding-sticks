@@ -1,0 +1,32 @@
+.sticks {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+}
+
+.page big > span {
+    display: inline-block;
+    padding: 0.125em 0.5em;
+    margin: 0 0.5em;
+    color: #000;
+    font-weight: bolder;
+    border-radius: 99vmin;
+}
+
+.page div {
+    text-align: center;
+}
+
+.page {
+    backdrop-filter: blur(2px);
+    background-color: #fffa;
+}
+
+.page footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

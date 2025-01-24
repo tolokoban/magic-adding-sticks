@@ -33,7 +33,7 @@ export default function Page() {
                 display="grid"
                 gridTemplateRows="1fr 2fr 2fr"
                 gap="S"
-                padding="L"
+                padding="S"
             >
                 <div>
                     <p>
